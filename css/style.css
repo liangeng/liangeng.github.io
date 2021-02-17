@@ -144,7 +144,7 @@ img.home {
 }
 .tt{
     background: #fff;
-    height: 200Px;
+    height: 250Px;
 
 
 }
@@ -451,12 +451,8 @@ img.content {
     /*bottom:0;
 */}
 .tail-w3ls {
-    font-family: Bauhaus 93;
-    font-size: 1.0em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
-    margin: 0em 0 1.5em 0;
+    font-family: BAUHS93;
+    font-size: 0.6em;
 }
 
 /*.copy-w3layouts-right p {
