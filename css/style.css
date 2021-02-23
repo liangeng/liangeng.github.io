@@ -297,6 +297,24 @@ img.admin {
 
 /*--//tab-content --*/
 /*-- /gallery --*/
+.box{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    /*换行*/
+    /*flex-wrap: wrap;*/
+    /*不换行，默认*/
+    /*flex-wrap: nowrap;*/
+    /*换行，第一行在下方*/
+    /*flex-wrap: wrap-reverse;*/
+    width: 100%;
+}
+.box a{
+    margin: 10px 10px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
 h4.sub-title.two {
     color: #000;
 }
@@ -596,10 +614,11 @@ img.content {
     }
 
     img.admin {
+        
         padding: 0.3em;
         margin-bottom: 1em;
-        width:2%;
-        height: 2%;
+        width:100px;
+        height: auto;
 
     }
     img.admin1 {
@@ -611,7 +630,7 @@ img.content {
 
     .inner-w3layouts-wrap {
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         padding-top: 2em;
     }
 
